@@ -42,6 +42,7 @@ body {
   background-color: #ffffff;
   opacity: 8%;
   animation: move 15s linear infinite;
+  z-index: 0;
   
 }
 
@@ -100,6 +101,7 @@ body {
 .hero__link {
   display: block;
   margin-top: 40px;
+  width: 227px;
 }
 
 .hero__link:hover {
