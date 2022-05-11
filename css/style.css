@@ -15,20 +15,24 @@
 body {
   font-family: 'Poppins', sans-serif;
   font-weight: 600;
-  max-width: 1440px;
-  min-height: 900px;
-  margin: 0 auto;
-  
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .hero {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  width: 1440px;
+  height: 900px;
   background: url('../img/background.jpg');
   padding: 0 88px;
   position: relative;
   overflow: hidden;
+  align-self: center;
 }
 
 .hero::before {
